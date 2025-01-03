@@ -1,0 +1,120 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.735),rgba(0, 0, 0, 0.735)), url(images/Capture.PNG) ;
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+
+.overlep-container{
+    width: 60%;
+    margin: 0 auto;
+    background-color: white;
+}
+
+
+.header-container{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    border: 1px solid rgb(85, 85, 85);
+}
+
+.name-logo{
+    width:30%;
+}
+.name-logo h1{
+    font-size: 30px;
+    font-family: "Orbitron", serif;
+    font-optical-sizing: auto;
+    text-transform: uppercase;
+    padding: 10px;
+}
+.name-logo i{
+    font-size: 18px;
+    margin:10px;
+}
+
+.nav-sec{
+    width: 70%;
+}
+.navber ul{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    list-style: none;
+    text-transform: uppercase;
+    
+}
+.navber ul li{
+    margin: 10px 20px;
+    font-family:verdana;
+    font-size: 16px;
+}
+.book-now{
+    background-color: rgb(0, 0, 0);
+    padding: 10px;
+    border-radius: 8px;
+    color: white;
+    font-family: verdana;
+    font-size: 10px;
+}
+
+.main-container{
+    height:800px;
+    background-image: linear-gradient(rgba(48, 51, 107,0.70),rgba(0, 0, 0, 0.735)),url(images/programming-background-collage\ \(1\).jpg);
+    background-size: cover; 
+    background-position: center;
+}
+
+.main-container h1{
+    font-size: 50px;
+    font-weight: bold;
+    font-family: verdana;
+    text-transform: uppercase;
+    color:white;
+    padding:20px;
+    margin-left: 50px;
+    padding-top: 100px;
+
+}
+.main-container h3{
+    margin-left: 55px;
+    font-size: 30px;
+    color: white;
+    letter-spacing: 10px;
+    padding:0 10px;
+    font-family: "Gruppo", serif;
+
+}
+.pera{
+    font-size: 20px;
+    letter-spacing: 7px;
+
+}
+.main-container p{
+    font-size: 20px;
+    color: whitesmoke;
+    margin-left: 50px;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+.btn{
+    background-color:#e84118;
+    width: 250px;
+    height: auto;
+    text-align: center;
+    font-size: 30px;
+    padding:20px;
+    border-radius: 8px;
+    margin-left: 60PX;
+    margin-top: 50px;
+    color: white;
+    border: none;
+    margin-bottom: 30px;
+}
+
